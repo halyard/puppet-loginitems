@@ -53,11 +53,11 @@ class loginitems {
     package => 'halyard/casks/totalspaces'
   }
   osx_login_item { 'Messages':
-    name => 'Messages'
+    name => 'Messages',
     path => '/Applications/Messages.app'
   }
   osx_login_item { 'Reminders':
-    name => 'Reminders'
+    name => 'Reminders',
     path => '/Applications/Reminders.app'
   }
 }
