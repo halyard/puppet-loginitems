@@ -1,8 +1,8 @@
 class loginitems {
-  define login_item {
+  define login_item ($package = $title, $root = "/Users/$::boxen_user/Applications") {
     osx_login_item { "${title}":
       name => "${title}",
-      path => "/Users/$::boxen_user/Applications/${title}.app",
+      path => "${root}/${title}.app",
       require => Package["${package}"]
     }
   }
