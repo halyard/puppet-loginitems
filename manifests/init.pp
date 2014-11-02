@@ -40,7 +40,7 @@ class loginitems {
   login_item { 'iTerm':
     package => 'iterm2-nightly-halyard'
   }
-  login_item { '1Password 4':
+  login_item { '1Password 5':
     package => 'onepassword-beta-halyard'
   }
   login_item { 'TextExpander':
