@@ -8,49 +8,49 @@ class loginitems {
   }
 
   login_item { 'AirMail Beta':
-    package => 'halyard/casks/airmail-beta'
+    package => 'airmail-beta-halyard'
   }
   login_item { 'Alfred 2':
-    package => 'halyard/casks/alfred'
+    package => 'alfred-halyard'
   }
   login_item { 'Bartender':
-    package => 'halyard/casks/bartender'
+    package => 'bartender-halyard'
   }
   login_item { 'BetterTouchTool':
-    package => 'halyard/casks/bettertouchtool'
+    package => 'bettertouchtool-halyard'
   }
   login_item { 'Copy':
-    package => 'halyard/casks/copy'
+    package => 'copy-halyard'
   }
   login_item { 'Dropbox':
-    package => 'halyard/casks/dropbox'
+    package => 'dropbox-halyard'
   }
   login_item { 'Flux':
-    package => 'halyard/casks/flux'
+    package => 'flux-halyard'
   }
   login_item { 'Google Chrome':
-    package => 'halyard/casks/google-chrome-dev'
+    package => 'google-chrome-dev-halyard'
   }
   login_item { 'Google Drive':
-    package => 'halyard/casks/google-drive'
+    package => 'google-drive-halyard'
   }
   login_item { 'iStat Menus':
-    package => 'halyard/casks/istat-menus'
+    package => 'istat-menus-halyard'
   }
   login_item { 'iTerm':
-    package => 'halyard/casks/iterm2-nightly'
+    package => 'iterm2-nightly-halyard'
   }
   login_item { '1Password 4':
-    package => 'halyard/casks/onepassword-beta'
+    package => 'onepassword-beta-halyard'
   }
   login_item { 'TextExpander':
-    package => 'halyard/casks/textexpander'
+    package => 'textexpander-halyard'
   }
   login_item { 'TotalFinder':
-    package => 'halyard/casks/totalfinder'
+    package => 'totalfinder-halyard'
   }
   login_item { 'TotalSpaces2':
-    package => 'halyard/casks/totalspaces'
+    package => 'totalspaces-halyard'
   }
   osx_login_item { 'Messages':
     name => 'Messages',
