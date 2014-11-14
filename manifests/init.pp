@@ -40,8 +40,14 @@ class loginitems {
   login_item { 'iTerm':
     package => 'iterm2-nightly-halyard'
   }
-  login_item { '1Password 5':
-    package => 'onepassword-beta-halyard'
+  if $::macosx_productversion_major == '10.9' {
+    login_item { '1Password 4':
+      package => 'onepassword-beta-mavericks-halyard'
+    }
+  } else {
+    login_item { '1Password 5':
+      package => 'onepassword-beta-halyard'
+    }
   }
   login_item { 'TextExpander':
     package => 'textexpander-halyard'
