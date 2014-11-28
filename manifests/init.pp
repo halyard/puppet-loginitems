@@ -7,8 +7,10 @@ class loginitems {
     }
   }
 
-  login_item { 'AirMail Beta':
-    package => 'airmail-beta-halyard'
+  if $::personal {
+    login_item { 'AirMail Beta':
+      package => 'airmail-beta-halyard'
+    }
   }
   login_item { 'Alfred 2':
     package => 'alfred-halyard'
