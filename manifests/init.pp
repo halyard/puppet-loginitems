@@ -36,9 +36,6 @@ class loginitems {
   login_item { 'Google Drive':
     package => 'google-drive-halyard'
   }
-  login_item { 'iStat Menus':
-    package => 'istat-menus-halyard'
-  }
   login_item { 'iTerm':
     package => 'iterm2-nightly-halyard'
   }
